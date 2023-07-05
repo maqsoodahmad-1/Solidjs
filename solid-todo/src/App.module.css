@@ -1,0 +1,60 @@
+body, html {
+  margin: 0;
+  height: 100%;
+}
+.app {
+  width: 100%;
+}
+body {
+  background-color: #EEEEEE;
+  font-family: 'Montserrat', sans-serif;
+  padding: 50px 50px 0 50px;
+}
+nav {
+  padding: 20px 20px 20px 0;
+}
+nav a {
+  padding: 10px;
+  text-decoration: none;
+  background: #fff;
+  border-radius: 3px;
+  color: rgb(0, 110, 255);
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+
+
+/* .App {
+  text-align: center;
+}
+
+.logo {
+  animation: logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.link {
+  color: #b318f0;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
