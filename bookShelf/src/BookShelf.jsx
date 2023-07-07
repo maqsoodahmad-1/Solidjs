@@ -13,7 +13,7 @@ function BookShelf(Properties){
     const toggleForm = ()=>setShowForm(!(showForm()))
     return(
         <>
-        <h1>Hello {Properties.name}'s BookShelf</h1>
+        <h1> {Properties.name}'s BookShelf</h1>
         <BookList books={books()}/>
         <Show when={showForm()} 
         fallback={<button onClick={toggleForm}>Add a Book</button>}>
